@@ -4,11 +4,14 @@
 LiquidCrystal_I2C lcd(0x27,20,4);
 
 // Contant Variables Declarations
-const int Button_Up = 22;
-const int Button_Down = 23;
-const int Button_Right = 24;
-const int Button_Left = 25;
-const int Button_Ok = 26;
+#define start 3
+#define errorWifi 4
+
+#define Button_Up 22
+#define  Button_Down 23
+#define  Button_Right 24
+#define  Button_Left 25
+#define  Button_Ok 26
 
 // Variables Declaration
 int Ratio = 0;
